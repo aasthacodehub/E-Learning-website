@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hwb(209 73% 3%);
+}
+
+header {
+    background-color: #333;
+    color: hsl(78, 82%, 63%);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+header nav ul {
+    list-style: circle;
+    display: flex;
+    margin: 5;
+    padding: 3;
+}
+
+header nav ul li {
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+header nav ul li a {
+    color: hsl(0, 22%, 96%);
+    font-size: 19px;
+}
+#home p{
+    text-align: center;
+    text-decoration: dotted;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+#about h2{
+    text-align:left;
+}
+#about p{
+    font-size: 20px;
+}
+#contact h2{
+   text-align: left; 
+}
+
+main {
+    padding: 30px;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+main section h1,
+main section h2 {
+    color: #033755;
+    text-align: center;
+    text-decoration: underline;
+    font-style:oblique;
+    font-weight: bolder;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.course {
+    background-color: hwb(162 11% 38% / 0.466);
+    padding: 20px;
+    border: 1px solid hsl(199, 88%, 27%);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.course h3 {
+    margin-top: 0;
+}
+
+.course ul.features {
+    list-style: numbers;
+    padding: 0;
+    text-align: left;
+}
+
+.course ul.features li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: hsl(189, 97%, 13%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
